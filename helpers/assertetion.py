@@ -19,10 +19,6 @@ class AssertValidate(Base):
     def item_validate_str(self, first_param, second_param):
         assert first_param == second_param, f'{first_param} !=  {second_param}'
 
-    def checkbox_active_validate(self, element):
-        WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(element))
-        assert element.is_selected(), f"Чекбокс не выбран"
-
     def contact_date_validate(self, order_header, person_date, email, phone):
 
         """Проверяем хэадер"""

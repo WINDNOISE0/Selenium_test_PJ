@@ -56,7 +56,6 @@ Selenium_test_pj/
 - **assertion.py**: Класс для проверки результатов тестов.
   - Методы:
     - `item_validate_str(first_param, second_param)`: Проверка совпадения двух строк.
-    - `checkbox_active_validate(element)`: Проверка, что чекбокс активен (выбран).
     - `user_name_validate(expected_user_name)`: Проверка, что имя пользователя на странице соответствует ожидаемому значению.
     - `contact_date_validate(order_header, person_date, email, phone)`: Комплексная проверка данных заказа:
       - Проверка заголовка оформления заказа на совпадение с ожидаемым.
