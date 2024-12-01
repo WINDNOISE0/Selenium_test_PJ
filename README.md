@@ -31,7 +31,7 @@ Selenium_test_pj/
 │   ├── test_end_to_end.py # End-to-end тесты
 │   ├── config.py         # Конфигурационный файл (настройки проекта)
 ├── conftest.py           # Конфигурация для Pytest
-├── test.py               # Вспомогательный тестовый файл
+├── test.py               # Вспомогательный 
 
 
 
